@@ -9,7 +9,7 @@
            style="display: flex; justify-content: space-between; align-items: baseline; gap: 0.5em;"
            {% if page.categories contains category[0] %}class="active"{% endif %}>
           <span>{{ category[0] }}</span>
-          <span style="opacity: 0.6; font-size: 0.85em;">{{ category[1].size }}</span>
+          <span style="opacity: 0.6; font-size: 0.85em;">({{ category[1].size }})</span>
         </a>
       </li>
     {% endfor %}
