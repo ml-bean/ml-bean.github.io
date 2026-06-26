@@ -7,9 +7,9 @@
     {% for category in categories_sorted %}
       {% assign cat_slug = category[0] | slugify %}
       <li>
-        <a href="/categories/#{{ cat_slug }}"
+        <a href="/categories/{{ cat_slug }}/"
            style="display: flex; justify-content: space-between; align-items: baseline; gap: 0.5em;"
-           {% if page.categories contains category[0] %}class="active"{% endif %}>
+           {% if page.categories contains category[0] or page.taxonomy == category[0] %}class="active"{% endif %}>
           <span>{{ category[0] }}</span>
           <span style="opacity: 0.6; font-size: 0.85em;">({{ category[1].size }})</span>
         </a>
