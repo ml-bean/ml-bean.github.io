@@ -1,3 +1,4 @@
 # main links
-# (top masthead navigation removed — navigation lives in the sidebar)
-main: []
+main:
+  - title: "About"
+    url: /about/
