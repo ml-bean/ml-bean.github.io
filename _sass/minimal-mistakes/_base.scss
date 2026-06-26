@@ -8,6 +8,7 @@ html {
   min-height: 100%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-y: scroll; /* prevent layout shift when scrollbar appears/disappears */
 }
 
 body {
