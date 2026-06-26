@@ -365,3 +365,14 @@
 .sidebar .author__urls li a {
   font-size: 16px;
 }
+
+/*
+   Custom: vertical divider between sidebar and content
+   ========================================================================== */
+
+@include breakpoint($large) {
+  .page {
+    border-inline-start: 1px solid $border-color;
+    padding-inline-start: 1.5em;
+  }
+}
