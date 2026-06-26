@@ -1,7 +1,5 @@
 <nav class="nav__list">
-  <h3 class="nav__title" style="padding-left: 0; font-size: 24px;">
-    <a href="/categories/" style="color: inherit; text-decoration: none;">Categories</a>
-  </h3>
+  <h3 class="nav__title" style="padding-left: 0; font-size: 24px;">Categories</h3>
   <ul class="nav__items" style="list-style: none; padding: 0; margin: 0;">
     {% assign categories_sorted = site.categories | sort %}
     {% for category in categories_sorted %}
