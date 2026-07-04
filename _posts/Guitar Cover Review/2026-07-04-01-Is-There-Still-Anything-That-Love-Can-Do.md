@@ -13,7 +13,7 @@ classes: wide
 > YouTube 하루한곡 영상으로 연습  
 > Claude와 함께하는 코드 진행 분석
 
-<center><img src='{{"/assets/images/2026-07-04-01-Is-There-Still-Anything-That-Love-Can-Do/Weathering_with_You_Poster.jpg" | relative_url}}' width="45%"></center>
+<center><img src='{{"/assets/images/2026-07-04-01-Is-There-Still-Anything-That-Love-Can-Do/Weathering-With-You.webp" | relative_url}}' width="45%"></center>
 
 
 ### Verse
