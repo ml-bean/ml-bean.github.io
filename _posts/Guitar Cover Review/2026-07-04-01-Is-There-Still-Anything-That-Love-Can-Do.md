@@ -13,6 +13,9 @@ classes: wide
 > YouTube 하루한곡 영상으로 연습  
 > Claude와 함께하는 코드 진행 분석
 
+<center><img src='{{"/assets/images/2026-07-04-01-Is-There-Still-Anything-That-Love-Can-Do/Weathering_with_You_Poster.jpg" | relative_url}}' width="45%"></center>
+
+
 ### Verse
 Cadd9 -> Bm7 -> Am7 -> G  
 근음이 한 단계씩 내려가는 '하행 진행' 차분하고 서정적이며 아련한 느낌을 줌  
