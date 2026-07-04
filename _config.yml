@@ -117,7 +117,7 @@ author:
   name             : "斌"
   avatar           : "/assets/images/01_infinite_void.jpg"
   bio              : "死んでも勝つ"
-  location         : "Osan"
+  location         : "Incheon"
   email            :
   # fediverse      : "@you@instance.social"  # used for fediverse:creator meta tag
   links:
@@ -136,9 +136,9 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/ml-bean"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/view_ean"
+    # - label: "Instagram"
+    #   icon: "fab fa-fw fa-instagram"
+    #   url: "https://instagram.com/view_ean"
 
 # Site Footer
 # footer:
