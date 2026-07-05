@@ -74,6 +74,19 @@ html.domain-expanded {
     // fixed backgrounds are unreliable on mobile Safari
     background-attachment: scroll;
   }
+
+  // let the void image show through the masthead bar instead of its
+  // normal opaque skin background; keep the text legible over the image
+  .masthead,
+  .greedy-nav {
+    background: transparent;
+    transition: background-color 0.3s ease;
+  }
+
+  .site-title,
+  .masthead__menu-item a {
+    text-shadow: 0 1px 6px rgba(0, 0, 0, 0.85);
+  }
 }
 
 /* One-shot activation burst overlay */
