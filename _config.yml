@@ -121,9 +121,9 @@ author:
   email            :
   # fediverse      : "@you@instance.social"  # used for fediverse:creator meta tag
   links:
-    # - label: "Email"
-    #   icon: "fas fa-fw fa-square-envelope"
-    #   # url: "mailto:your.name@email.com"
+    - label: "Email"
+      icon: "fas fa-fw fa-square-envelope"
+      url: "gm.bean418@gmail.com"
     # - label: "Website"
     #   icon: "fas fa-fw fa-link"
     #   # url: "https://your-website.com"
