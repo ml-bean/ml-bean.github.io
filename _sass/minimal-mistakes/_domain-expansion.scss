@@ -9,44 +9,71 @@ html {
 .domain-toggle {
   display: inline-flex;
   align-items: center;
-  justify-content: center;
   margin-inline-start: 0.5em;
-  width: 2rem;
-  height: 2rem;
-  flex: none;
-  border: 1px solid $border-color;
-  border-radius: 50%;
+  padding: 0;
+  border: none;
   background: transparent;
   cursor: pointer;
-  transition: transform 0.4s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+  flex: none;
 
-  &:hover {
-    border-color: #9d4edd;
-    box-shadow: 0 0 12px rgba(157, 78, 221, 0.6);
-  }
-
-  &__icon {
-    font-size: 1.1rem;
-    line-height: 1;
+  &__track {
+    position: relative;
     display: inline-block;
-    transition: transform 0.6s ease;
+    width: 2.75rem;
+    height: 1.5rem;
+    border-radius: 999px;
+    background: rgba(140, 139, 161, 0.45);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
   }
 
-  &[aria-pressed="true"] {
-    border-color: #9d4edd;
-    box-shadow: 0 0 14px rgba(157, 78, 221, 0.8);
+  &__thumb {
+    position: absolute;
+    top: 0.125rem;
+    inset-inline-start: 0.125rem;
+    width: 1.25rem;
+    height: 1.25rem;
+    border-radius: 50%;
+    background: #fff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
 
-    .domain-toggle__icon {
-      transform: rotate(180deg);
+  &:hover .domain-toggle__track {
+    background: #8c8ba1;
+  }
+
+  &[aria-checked="true"] {
+    .domain-toggle__track {
+      background: #9d4edd;
+      box-shadow: 0 0 10px rgba(157, 78, 221, 0.7);
+    }
+
+    .domain-toggle__thumb {
+      transform: translateX(1.25rem);
+      background: #1a0033;
+    }
+
+    &:hover .domain-toggle__track {
+      background: #ab5cea;
     }
   }
 }
 
 /* Persistent "expanded" background state */
 html.domain-expanded {
-  background-color: #0d0221;
-  background-image: radial-gradient(ellipse at center, #2b1055 0%, #0d0221 55%, #030014 100%);
+  background-color: #030014;
+  background-image:
+    linear-gradient(rgba(3, 0, 20, 0.7), rgba(3, 0, 20, 0.7)),
+    url("/assets/images/02_infinite_void_bg.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   background-attachment: fixed;
+
+  @media (max-width: 768px) {
+    // fixed backgrounds are unreliable on mobile Safari
+    background-attachment: scroll;
+  }
 }
 
 /* One-shot activation burst overlay */
@@ -88,8 +115,8 @@ html.domain-expanded {
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .domain-toggle,
-  .domain-toggle__icon,
+  .domain-toggle__track,
+  .domain-toggle__thumb,
   html,
   html.domain-expanded,
   .domain-flash-overlay,

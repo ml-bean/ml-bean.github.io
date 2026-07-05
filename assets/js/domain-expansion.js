@@ -9,7 +9,7 @@
 
   function setState(expanded) {
     document.documentElement.classList.toggle("domain-expanded", expanded);
-    btn.setAttribute("aria-pressed", expanded ? "true" : "false");
+    btn.setAttribute("aria-checked", expanded ? "true" : "false");
   }
 
   function spawnFlash() {
@@ -28,7 +28,7 @@
     }, 1500);
   }
 
-  btn.setAttribute("aria-pressed", isExpanded() ? "true" : "false");
+  btn.setAttribute("aria-checked", isExpanded() ? "true" : "false");
 
   btn.addEventListener("click", function () {
     var next = !isExpanded();
