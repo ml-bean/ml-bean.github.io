@@ -12,6 +12,10 @@
           {{ site.masthead_title | default: site.title | escape_once | strip }}
           {% if site.subtitle %}<span class="site-subtitle">{{ site.subtitle | escape_once | strip }}</span>{% endif %}
         </a>
+        <button id="domain-expansion-toggle" class="domain-toggle" type="button" aria-pressed="false" title="領域展開">
+          <span class="visually-hidden">영역전개 토글</span>
+          <span class="domain-toggle__icon" aria-hidden="true">🌀</span>
+        </button>
         <ul class="visible-links">
           {%- for link in site.data.navigation.main -%}
             <li class="masthead__menu-item">
