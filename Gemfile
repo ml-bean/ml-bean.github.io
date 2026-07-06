@@ -5,7 +5,7 @@ gem "tzinfo-data"
 
 group :jekyll_plugins do
   gem "jekyll-paginate"
-  gem "jekyll-sitemap"
+  # jekyll-sitemap intentionally disabled — keep the site link-only / noindex
   gem "jekyll-gist"
   gem "jekyll-feed"
   gem "jemoji"
