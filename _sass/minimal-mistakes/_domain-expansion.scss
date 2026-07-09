@@ -95,51 +95,11 @@ html.domain-expanded {
   }
 }
 
-/* One-shot activation burst overlay */
-.domain-flash-overlay {
-  position: fixed;
-  inset: 0;
-  z-index: 9999;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  pointer-events: none;
-  background: radial-gradient(circle, rgba(157, 78, 221, 0.9) 0%, rgba(10, 0, 20, 0.95) 70%);
-  opacity: 0;
-  animation: domain-burst 0.9s ease-out forwards;
-
-  span {
-    font-family: $sans-serif;
-    font-size: clamp(1.5rem, 6vw, 4rem);
-    font-weight: bold;
-    color: #f5e0dc;
-    text-shadow: 0 0 20px #9d4edd, 0 0 40px #9d4edd;
-    opacity: 0;
-    animation: domain-text 0.9s ease-out forwards;
-  }
-}
-
-@keyframes domain-burst {
-  0% { opacity: 0; }
-  15% { opacity: 1; }
-  80% { opacity: 0.9; }
-  100% { opacity: 0; }
-}
-
-@keyframes domain-text {
-  0% { opacity: 0; transform: scale(0.6); }
-  30% { opacity: 1; transform: scale(1.05); }
-  60% { opacity: 1; transform: scale(1); }
-  100% { opacity: 0; transform: scale(1.1); }
-}
-
 @media (prefers-reduced-motion: reduce) {
   .domain-toggle__track,
   .domain-toggle__thumb,
   html,
-  html.domain-expanded,
-  .domain-flash-overlay,
-  .domain-flash-overlay span {
+  html.domain-expanded {
     animation: none !important;
     transition: none !important;
   }

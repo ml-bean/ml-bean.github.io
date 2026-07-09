@@ -12,22 +12,6 @@
     btn.setAttribute("aria-checked", expanded ? "true" : "false");
   }
 
-  function spawnFlash() {
-    var overlay = document.createElement("div");
-    overlay.className = "domain-flash-overlay";
-    var label = document.createElement("span");
-    label.textContent = "領域展開";
-    overlay.appendChild(label);
-    document.body.appendChild(overlay);
-    overlay.addEventListener("animationend", function () {
-      overlay.remove();
-    });
-    // fallback in case animationend never fires (e.g. tab loses focus mid-animation)
-    setTimeout(function () {
-      if (overlay.parentNode) overlay.remove();
-    }, 1500);
-  }
-
   btn.setAttribute("aria-checked", isExpanded() ? "true" : "false");
 
   btn.addEventListener("click", function () {
@@ -36,6 +20,5 @@
     try {
       localStorage.setItem(STORAGE_KEY, next ? "1" : "0");
     } catch (e) {}
-    if (next) spawnFlash();
   });
 })();
