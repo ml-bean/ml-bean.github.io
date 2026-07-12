@@ -12,7 +12,8 @@ classes: wide
 > JMLR 2005. [[Paper](http://jmlr.org/papers/volume6/hyvarinen05a/hyvarinen05a.pdf)]  
 > Aapo Hyvärinen  
 > Helsinki Institute for Information Technology (BRU) | University of Helsinki  
-> 2005
+> 2005  
+> 2 Estimation by Score Matching까지만 리뷰
 
 # 1 Introduction
 
