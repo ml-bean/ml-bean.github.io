@@ -1,5 +1,5 @@
 ---
-title: "[Paper Review] Density estimation in infinite dimensional exponential families"
+title: "[Paper Review] Estimation of non-normalized statistical models by score matching"
 date: 2026-07-12
 categories:
   - Paper Review
@@ -9,10 +9,10 @@ use_math: true
 classes: wide
 ---
 
-> JMLR 2017. [[Paper](https://jmlr.org/papers/v18/16-011.html)]  
-> Bharath Sriperumbudur, Kenji Fukumizu, Arthur Gretton, Aapo Hyvärinen, Revant Kumar  
-> Gatsby Computational Neuroscience Unit | ISM | MPI-IS | Aalto University | IIT Delhi  
-> 2017
+> JMLR 2005. [[Paper](http://jmlr.org/papers/volume6/hyvarinen05a/hyvarinen05a.pdf)]  
+> Aapo Hyvärinen  
+> Helsinki Institute for Information Technology (BRU) | University of Helsinki  
+> 2005
 
 # 1 Introduction
 
