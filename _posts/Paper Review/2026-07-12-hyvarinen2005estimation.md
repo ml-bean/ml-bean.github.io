@@ -83,7 +83,7 @@ $$
 
 ### 이론적 보장 (Theorem 2, Corollary 3)
 
-- **Theorem 2**: 모델이 correctly specified이고($p_x = p(\cdot;\theta^*)$인 $\theta^*$ 존재), identifiable하며, $q(\xi;\theta) > 0$이면
+- **Theorem 2**: 모델이 correctly specified이고( $p_x = p(\cdot;\theta^*)$ 인 $\theta^*$ 존재), identifiable하며, $q(\xi;\theta) > 0$ 이면
 
 $$
 J(\theta) = 0 \iff \theta = \theta^*
