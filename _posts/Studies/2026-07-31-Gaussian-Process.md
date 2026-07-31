@@ -93,11 +93,11 @@ $$
 ### Gaussian Kernel
 
 <center>
-  <img src='{{ "/assets/images/2026-07-31-Gaussian-Process/gaussian_kernel.png" | relative_url }}' width="85%">
+  <img src='{{ "/assets/images/2026-07-31-Gaussian-Process/gaussian_kernel.png" | relative_url }}' width="40%">
 </center>
 
 <p align="center">
-  <em>Gaussian Kernel의 공분산함수와 함수 표본</em>
+  <em>Gaussian Kernel로 정의된 GP 사전분포에서 추출한 함수 표본</em>
 </p>
 
 가장 널리 사용되는 커널 중 하나는 Gaussian Kernel이며, RBF(Radial Basis Function) Kernel 또는 Squared Exponential Kernel이라고도 부른다.
@@ -123,11 +123,11 @@ $\sigma_f^2$는 함수값의 전체적인 변동 크기를, $\ell$은 입력 사
 ### Periodic Kernel
 
 <center>
-  <img src='{{ "/assets/images/2026-07-31-Gaussian-Process/periodic_kernel.png" | relative_url }}' width="85%">
+  <img src='{{ "/assets/images/2026-07-31-Gaussian-Process/periodic_kernel.png" | relative_url }}' width="40%">
 </center>
 
 <p align="center">
-  <em>Periodic Kernel이 생성하는 반복적인 함수 구조</em>
+  <em>Periodic Kernel의 구조</em>
 </p>
 
 이번에는 주기적인 구조를 표현하는 Periodic Kernel을 살펴보자.
@@ -172,11 +172,11 @@ Periodic Kernel은 일정한 간격으로 비슷한 출력 패턴이 반복되�
 ### Matérn Kernel
 
 <center>
-  <img src='{{ "/assets/images/2026-07-31-Gaussian-Process/matern_kernel.png" | relative_url }}' width="85%">
+  <img src='{{ "/assets/images/2026-07-31-Gaussian-Process/matern_kernel.png" | relative_url }}' width="40%">
 </center>
 
 <p align="center">
-  <em>Matérn Kernel의 $\nu$에 따른 함수의 매끄러움 변화</em>
+  <em>Matérn Kernel의 매끄러움 파라미터 $\nu$에 따른 함수 표본의 변화</em>
 </p>
 
 Gaussian Kernel은 매우 매끄러운 함수를 가정한다.  
