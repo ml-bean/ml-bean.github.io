@@ -92,6 +92,14 @@ $$
  
 ### Gaussian Kernel
 
+<center>
+  <img src='{{ "/assets/images/2026-07-31-Gaussian-Process/gaussian_kernel.png" | relative_url }}' width="85%">
+</center>
+
+<p align="center">
+  <em>Gaussian Kernel의 공분산함수와 함수 표본</em>
+</p>
+
 가장 널리 사용되는 커널 중 하나는 Gaussian Kernel이며, RBF(Radial Basis Function) Kernel 또는 Squared Exponential Kernel이라고도 부른다.
 
 $$
@@ -113,6 +121,14 @@ $\sigma_f^2$는 함수값의 전체적인 변동 크기를, $\ell$은 입력 사
 따라서 Gaussian Kernel은 유클리드 거리상 가까운 입력에서는 함숫값도 비슷하게 나타나며, 입력이 조금 변하면 함숫값 역시 부드럽게 변할 것이라는 가정을 GP에 부여한다.
 
 ### Periodic Kernel
+
+<center>
+  <img src='{{ "/assets/images/2026-07-31-Gaussian-Process/periodic_kernel.png" | relative_url }}' width="85%">
+</center>
+
+<p align="center">
+  <em>Periodic Kernel이 생성하는 반복적인 함수 구조</em>
+</p>
 
 이번에는 주기적인 구조를 표현하는 Periodic Kernel을 살펴보자.
 
@@ -154,6 +170,14 @@ Gaussian Kernel이 가까운 입력에서 비슷한 출력이 나타나는 매�
 Periodic Kernel은 일정한 간격으로 비슷한 출력 패턴이 반복되는 함수를 가정한다.
 
 ### Matérn Kernel
+
+<center>
+  <img src='{{ "/assets/images/2026-07-31-Gaussian-Process/matern_kernel.png" | relative_url }}' width="85%">
+</center>
+
+<p align="center">
+  <em>Matérn Kernel의 $\nu$에 따른 함수의 매끄러움 변화</em>
+</p>
 
 Gaussian Kernel은 매우 매끄러운 함수를 가정한다.  
 하지만 실제 데이터의 함수가 항상 무한히 매끄럽다고 보기는 어렵다.  
