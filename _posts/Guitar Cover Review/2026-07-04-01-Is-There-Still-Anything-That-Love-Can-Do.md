@@ -1,0 +1,44 @@
+---
+title: "[Guitar Cover Review] RADWIMPS - 愛にできることはまだあるかい"
+date: 2026-07-04
+categories:
+  - Guitar Cover Review
+tags:
+  - J-ROCK
+  - Animation
+use_math: false
+classes: wide
+---
+
+> YouTube 하루한곡  
+> Capo.2
+
+<center><img src='{{"/assets/images/2026-07-04-01-Is-There-Still-Anything-That-Love-Can-Do/Weathering-With-You.webp" | relative_url}}' width="45%"></center>
+
+
+### Verse
+Cadd9 -> Bm7 -> Am7 -> G  
+근음이 한 단계씩 내려가는 '하행 진행' 차분하고 서정적이며 아련한 느낌을 줌  
+또한 그냥 C가 아닌 Cadd9을 사용하여 세련되고 몽환적인 색채를 더함
+
+### Pre-Chorus
+G/B -> Cadd9 -> Dsus4 -> D  
+sus4는 다소 불안정하고 긴장된 느낌 -> D로 넘어가며 해소, 후렴구로 진입하는 해방감
+
+### Chorus
+Cadd9 -> G/B -> D -> Em7  
+Cadd9 -> G/B -> D -> B7 -> Em7  
+B7은 원래 G 메이저 키의 기본 가족 코드에는 없지만,  
+(G메이저에서 B 근음 코드는 원래 Bm임)  
+바로 다음 마디의 Em7으로 강력하게 넘어가려는 긴장감 유발(Secondary Dominant)  
+애니메이션 OST나 J-POP에서 벅차오르는 감정, 애절함을 극대화할 때 자주 등장하는 진행
+
+### Inter
+Cadd9 -> D -> Em7  
+G/B -> Cadd9 -> D  
+C -> D -> E -> B -> C -> D 계속 올라가는 진행, 벅차오르는 느낌  
+이때 스트로크를 촘촘히하여 곡이 빠르고 시원하게 들림  
+특히, 이 곡의 으뜸음은 G이므로 D 코드 안에 포함된 F#이 G를 예고하는 것처럼 들림
+
+### Review
+날씨의 아이 OST, 아련하고 몽환적인 느낌이 기타 연주와 잘 어울린다.
