@@ -9,8 +9,7 @@ tags:
 classes: wide
 ---
 
-WSL의 VS Code Server에 설치된 확장 프로그램을 용도별로 정리한다.
-
+WSL의 VS Code Server에 설치된 확장 프로그램을 용도별로 정리한다.  
 설치된 확장 목록은 터미널에서 다음 명령으로 확인할 수 있다.
 
 ```bash
@@ -33,16 +32,6 @@ code --list-extensions --show-versions
 | `ms-python.debugpy` | 중단점, 변수 확인, 단계별 실행을 지원하는 Python 디버거다. |
 | `ms-python.vscode-python-envs` | Python 인터프리터와 가상환경을 선택하고 관리한다. |
 
-## Jupyter Notebook
-
-| Extension | 기능 |
-| --- | --- |
-| `ms-toolsai.jupyter` | VS Code에서 Jupyter Notebook 실행과 대화형 분석을 지원한다. |
-| `ms-toolsai.jupyter-keymap` | Jupyter에서 사용하던 단축키를 VS Code Notebook에 적용한다. |
-| `ms-toolsai.jupyter-renderers` | Plotly, Vega, 이미지 등 Notebook 출력 결과를 렌더링한다. |
-| `ms-toolsai.vscode-jupyter-cell-tags` | Notebook 셀에 태그와 메타데이터를 지정한다. |
-| `ms-toolsai.vscode-jupyter-slideshow` | Notebook 셀을 슬라이드 형식으로 구성한다. |
-
 ## 문서와 데이터
 
 | Extension | 기능 |
@@ -55,5 +44,3 @@ code --list-extensions --show-versions
 | Extension | 기능 |
 | --- | --- |
 | `oderwat.indent-rainbow` | 들여쓰기 단계마다 색을 입혀 코드 구조를 쉽게 구분한다. |
-
-Python과 Jupyter 관련 확장들은 서로 연동되는 구성 요소가 많다. 따라서 개별 확장을 무작정 제거하기보다 Python 또는 Jupyter의 핵심 확장이 의존하는 기능인지 먼저 확인하는 것이 좋다.
