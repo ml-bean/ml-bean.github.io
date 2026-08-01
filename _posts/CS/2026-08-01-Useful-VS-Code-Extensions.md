@@ -9,6 +9,12 @@ tags:
 classes: wide
 ---
 
+<style>
+.page__content table {
+  font-size: 1em;
+}
+</style>
+
 WSL의 VS Code Server에 설치된 확장 프로그램을 용도별로 정리한다.  
 설치된 확장 목록은 터미널에서 다음 명령으로 확인할 수 있다.
 
