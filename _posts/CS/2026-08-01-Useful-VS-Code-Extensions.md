@@ -15,34 +15,12 @@ classes: wide
 }
 </style>
 
-Windows 로컬과 WSL의 VS Code Server에 설치된 확장 프로그램을 용도별로 정리한다.
-설치 위치에 따라 목록이 다르므로 Windows와 WSL 터미널에서 각각 다음 명령을 실행해 확인한다.
+> Windows 로컬과 WSL의 VS Code Server에 설치된 확장 프로그램을 용도별로 정리한다.
+> 설치 위치에 따라 목록이 다르므로 Windows와 WSL 터미널에서 각각 다음 명령을 실행해 확인한다.
 
 ```bash
 code --list-extensions --show-versions
 ```
-
-## AI 코딩 도구
-
-| Extension | 기능 |
-| --- | --- |
-| openai.chatgpt | Codex를 이용해 코드 작성, 수정, 설명과 작업 자동화를 수행한다. |
-| anthropic.claude-code | VS Code 안에서 Claude Code 기반의 코딩 에이전트를 사용한다. |
-
-## 원격 개발
-
-| Extension | 기능 |
-| --- | --- |
-| ms-vscode-remote.remote-wsl | Windows의 VS Code에서 WSL 파일과 개발 환경을 원격으로 열어 사용한다. |
-
-## Python 개발
-
-| Extension | 기능 |
-| --- | --- |
-| ms-python.python | Python 실행, 테스트, 리팩터링 등 기본 개발 기능을 제공한다. |
-| ms-python.vscode-pylance | 빠른 자동 완성, 타입 검사, 코드 탐색을 제공한다. |
-| ms-python.debugpy | 중단점, 변수 확인, 단계별 실행을 지원하는 Python 디버거다. |
-| ms-python.vscode-python-envs | Python 인터프리터와 가상환경을 선택하고 관리한다. |
 
 ## 문서와 데이터
 
@@ -63,3 +41,5 @@ code --list-extensions --show-versions
 | Extension | 기능 |
 | --- | --- |
 | pkief.material-icon-theme | 파일과 폴더 종류를 구분하기 쉬운 Material Design 아이콘을 적용한다. |
+
+python 관련, remote wsl, jupyter, 에이전트 제외
