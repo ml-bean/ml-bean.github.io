@@ -2,7 +2,7 @@
 title: "(GPT요약) SSH 세팅"
 date: 2026-07-29
 categories:
-  - Studies
+  - CS
 tags:
   - OpenSSH
 ---
